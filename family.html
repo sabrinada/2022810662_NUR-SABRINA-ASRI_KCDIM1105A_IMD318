@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .family {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            flex: 1; 
+        }
+
+        .family-member {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .family-member img {
+            width: 100%;
+            height: auto;
+        }
+
+        .family-member h3 {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 0.9em;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Family</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="timeline.html">JOURNEY</a></li>
+                <li><a href="hobby.html">HOBBY</a></li>
+                <li><a href="family.html">FAMILY</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="family">
+        <h2>My Family</h2>
+
+        <div class="family-member">
+            <img src="gambar 13.jpg" alt="My Family 2">
+        </div>
+
+        <div class="family-member">
+            <img src="gambar 14.jpg" alt="My Family 1"> 
+        </div>
+
+        <div class="family-member">
+            <img src="gambar 15.jpg" alt="All of Us">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SABRINASRI</p>
+    </footer>
+</body>
+</html>
+

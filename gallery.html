@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .gallery {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            text-align: center;
+
+
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .gallery-item h3 {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <header>
+        <h1>My Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="timeline.html">JOURNEY</a></li>
+                <li><a href="hobby.html">HOBBY</a></li>
+                <li><a href="family.html">FAMILY</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="gallery">
+        <h2>Photo Collection</h2>
+        
+        <div class="gallery-item">
+            <img src="gambar 1.jpg" alt="Gallery Image 1">
+            <h3>KCDIM1103G</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gambar 2.jpg" alt="Gallery Image 2">
+            <h3>KCDIM1105A</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gambar 3.jpg" alt="Gallery Image 3">
+            <h3>KCDIM1105A</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gambar 4.jpg" alt="Gallery Image 4">
+            <h3>Co-curriculum Semester 1</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gambar 5.jpg" alt="Gallery Image 5">
+            <h3>Organize the Files Based on the District</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gambar 6.jpg" alt="Gallery Image 6">
+            <h3>KCDIM1103G Girls</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gambar 9.jpg" alt="Gallery Image 9">
+            <h3>Stamp The Forms</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gambar 10.jpg" alt="Gallery Image 10">
+            <h3>Print Out the Invoice</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gambar 11.jpg" alt="Gallery Image 12">
+            <h3>Learn How to Open and Close the Files</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gambar 12.jpg" alt="Gallery Image 12">
+            <h3>Color of Pen to Write the Incoming Mail Minutes</h3>
+        </div>
+
+    </section>
+
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2024 SABRINASRI</p>
+    </footer>
+</body>
+</html>
